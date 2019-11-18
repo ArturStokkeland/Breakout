@@ -1,0 +1,28 @@
+.label {
+    -fx-font: bold 20pt "courier new";
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( gaussian , rgba(0, 0, 255, 1) , 2 , 1, 0, 0 );
+}
+
+.radio-button {
+	-fx-font: bold 20pt "courier new";
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( gaussian , rgba(0, 0, 255, 1) , 2 , 1, 0, 0 );
+}
+
+.button {
+	-fx-background-color: #87CEEB;
+	-fx-font: bold 20pt "courier new";
+	-fx-effect: innershadow( gaussian , rgba(255, 255, 0, 1) , 5 , 1, 0, 0 );
+}
+.text-field {
+	-fx-font: bold 20pt "courier new";
+}
+
+#Main, #Settings, #EndScore {
+	-fx-background-image: url("breakout.png");
+}
+
+#Leader {
+	-fx-background-image: url("breakoutWide.png");
+}
